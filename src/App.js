@@ -23,10 +23,10 @@ const useStyles = makeStyles((theme) => ({
 		"&:hover": {
 			backgroundColor: fade(theme.palette.common.white, 0.25),
 		},
-		marginLeft: 0,
-		width: "100%",
+		// marginLeft: 0,
+		width: "auto",
 		[theme.breakpoints.up("sm")]: {
-			marginLeft: theme.spacing(1),
+			// marginLeft: theme.spacing(1),
 			width: "auto",
 		},
 	},
@@ -148,7 +148,7 @@ function App() {
 										item
 										xs={12}
 										sm={6}
-										md={3}
+										md={4}
 										lg={2}
 										xl={2}
 										key={movie.id}
