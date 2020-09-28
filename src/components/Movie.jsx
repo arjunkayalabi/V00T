@@ -37,7 +37,7 @@ const useStyles = makeStyles({
 		// height: "500px",
 		backgroundColor: "#373b69",
 		color: "white",
-		maxWidth: "100%",
+		// maxWidth: "100%",
 		width: "18rem",
 		height: "500px",
 		// maxHeight: "100%",
