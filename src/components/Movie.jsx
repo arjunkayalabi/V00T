@@ -38,9 +38,9 @@ const useStyles = makeStyles({
 		backgroundColor: "#373b69",
 		color: "white",
 		maxWidth: "100%",
-		width: "100%",
+		width: "18rem",
+		height: "500px",
 		// maxHeight: "100%",
-		height: "25vw",
 	},
 });
 
@@ -64,7 +64,7 @@ const Movie = ({
 	const classes = useStyles();
 	return (
 		<>
-			<Card className={(classes.root, classes.card)}>
+			<Card className={(classes.root, classes.card)} height="100%">
 				<CardActionArea>
 					<CardMedia
 						component="img"
@@ -79,7 +79,7 @@ const Movie = ({
 							// maxWidth: "100%",
 							// width: "100%",
 							// maxHeight: "100%",
-							height: "21vw",
+							height: "90%",
 							display: "block",
 							// width: "30vw",
 							// transitionDuration: "0.3s",

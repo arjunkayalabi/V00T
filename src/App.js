@@ -35,7 +35,6 @@ const useStyles = makeStyles((theme) => ({
 const FEATURED_API =
 	"https://api.themoviedb.org/3/discover/movie?api_key=920f9cd3544456e38a89838e906c085c&language=en-US&sort_by=popularity.desc&page=1&include_adult=false";
 
-
 const SEARCH_API =
 	"https://api.themoviedb.org/3/search/movie?api_key=920f9cd3544456e38a89838e906c085c&language=en-US&page=1&include_adult=false&query=";
 
