@@ -28,7 +28,7 @@ const defaultImage =
 const useStyles = makeStyles({
 	root: {
 		maxWidth: 345,
-		height: "auto",
+		height: "100%",
 		width: "auto",
 		backgroundColor: "#373b69",
 		color: "white",
